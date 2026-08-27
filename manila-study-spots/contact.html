@@ -22,9 +22,43 @@
     <h2>Get in Touch</h2>
     <p>Have a study spot suggestion or feedback? Feel free to reach out:</p>
     <ul>
-      <li>Email: <a href="mailto:knunag213@gmail.com">knunag213@gmail.com</a></li>
+      <li>Email: <a href="edwardkenneth.nunag@tup.edu.ph">edwardkenneth.nunag@tup.edu.ph</a></li>
       <li>GitHub: <a href="https://github.com/kenneth-a-11">github.com/kenneth-a-11</a></li>
     </ul>
+
+    <form>
+      <fieldset>
+        <legend>Your details</legend>
+
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="subject">Subject</label><br>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>-- Select an option --</option>
+            <option value="suggest-place">Suggest a study spot</option>
+            <option value="correct-detail">Correct a detail</option>
+            <option value="ask-question">Ask a question</option>
+            <option value="something-else">Something else</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+
+        <button type="submit">Send message</button>
+      </fieldset>
+    </form>
   </main>
 
   <footer>
