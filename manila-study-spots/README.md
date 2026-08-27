@@ -1,1 +1,0 @@
-# manila-study-spots
